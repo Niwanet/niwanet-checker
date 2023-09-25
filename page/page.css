@@ -1,0 +1,66 @@
+* {
+    color: darkslategrey;
+    font-weight: 600;
+}
+
+html {
+    width: 325px;
+}
+
+body {
+    margin: 1rem;
+}
+
+h1 {
+    font-size: 1.75rem;
+    font-weight: 600;
+}
+
+p {
+    font-size: 1.25rem;
+    padding-top: 1.25rem;
+    padding-bottom: 1rem;
+    margin: 0;
+}
+
+#titlebar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 1.75rem;
+}
+#image {
+    height: inherit;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#checker {
+    padding: 0;
+    height: 3rem;
+    width: 9rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    transition: all 0.2s ease-in-out;
+}
+.hover:hover {
+    color: white;
+    background-color: green;
+    cursor: pointer;
+    
+}
+
+.bad {
+    color: red;
+}
+
+.good {
+    color: green;
+}
