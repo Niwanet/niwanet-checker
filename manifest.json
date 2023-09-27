@@ -7,8 +7,7 @@
         "128": "images/niwanetchecker-128.png"
     },
     "browser_action": {
-        "default_popup": "page/page.html",
-        "browser_style": true
+        "default_popup": "page/page.html"
     },
     "permissions": [
         "tabs"

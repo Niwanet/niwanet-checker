@@ -1,6 +1,8 @@
 * {
     color: darkslategrey;
     font-weight: 600;
+    font: 1em sans-serif;
+    font-weight: 600;
 }
 
 html {
@@ -8,12 +10,12 @@ html {
 }
 
 body {
+    width: 325px;
     margin: 1rem;
 }
 
 h1 {
     font-size: 1.75rem;
-    font-weight: 600;
 }
 
 p {
@@ -24,6 +26,8 @@ p {
 }
 
 #titlebar {
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -36,6 +40,8 @@ p {
 }
 
 #content {
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
     flex-direction: column;
     justify-content: center;
