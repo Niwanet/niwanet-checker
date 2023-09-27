@@ -1,18 +1,16 @@
 {
-    "manifest_version": 3,
+    "manifest_version": 2,
     "name": "Niwanet Checker",
-    "author": "eaji@niwanet.net",
-    "homepage_url": "https://niwanet.net",
     "description": "Vérifie si un site appartient à Niwanet",
     "version": "1.0",
     "icons": {
         "128": "images/niwanetchecker-128.png"
     },
-    "action": {
+    "browser_action": {
         "default_popup": "page/page.html",
-        "default_icon": "images/niwanetchecker.png"
+        "browser_style": true
     },
     "permissions": [
-        "activeTab"
+        "tabs"
     ]
 }

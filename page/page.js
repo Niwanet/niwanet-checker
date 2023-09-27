@@ -5,7 +5,7 @@ function check() {
     button.innerHTML = "⟳"
     button.disabled = true;
     button.classList.remove("hover");
-    chrome.tabs.query({active: true, lastFocusedWindow: true}, async tabs => {
+    browser.tabs.query({currentWindow: true, active: true}).then(async (tabs) => {
         let url = tabs[0].url;
         const domain = (new URL(url)).hostname.replace('www.','');
         const res = await fetch("http://52.17.79.12:32770/domains/check/" + domain);
