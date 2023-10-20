@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "Niwanet Checker",
     "description": "Vérifie si un site appartient à Niwanet",
-    "version": "1.0",
+    "version": "1.0.1",
     "icons": {
         "128": "images/niwanetchecker-128.png"
     },
