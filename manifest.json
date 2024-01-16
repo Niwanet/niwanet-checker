@@ -4,7 +4,7 @@
     "author": "eaji@niwanet.net",
     "homepage_url": "https://niwanet.net",
     "description": "Vérifie si un site appartient à Niwanet",
-    "version": "1.0.1",
+    "version": "1.1.0",
     "icons": {
         "128": "images/niwanetchecker-128.png"
     },
@@ -13,6 +13,6 @@
         "default_icon": "images/niwanetchecker.png"
     },
     "permissions": [
-        "activeTab"
+        "tabs"
     ]
 }
